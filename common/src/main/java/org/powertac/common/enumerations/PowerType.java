@@ -82,6 +82,11 @@ public class PowerType
   public static final PowerType ELECTRIC_VEHICLE =
       new PowerType(TypeLabel.ELECTRIC_VEHICLE);
 
+  public TypeLabel getLabel()
+  {
+    return label;
+  }
+
   // This is the instance data field.
   private TypeLabel label;
   

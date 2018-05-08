@@ -1,0 +1,8 @@
+
+<#-- -->
+import ${import}
+
+class ${classname}(${parentname}):
+    def __init__(
+                    ${params}
+                )
