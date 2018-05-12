@@ -112,7 +112,7 @@ public class BrokerMessageReceiver implements MessageListener
       try {
         log.debug("onMessage(Message) - receiving a message");
         msg = ((TextMessage) message).getText();
-        log.info("received message:\n" + msg);
+        log.debug("received message:\n" + msg);
         //onMessage(msg);
         if (ipcAdapterName != null) {
           // Extract the tag, conditionally pass on the message and/or
